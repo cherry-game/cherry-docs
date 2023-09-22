@@ -1,5 +1,5 @@
 ---
-title: 示例
+title: 组件
 index: false
 icon: laptop-code
 category:

@@ -1,21 +1,20 @@
 ---
 home: true
 icon: home
-title: Cherry Game | Go游戏服务端框架
+title: 首页
 heroImage: /logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
-bgImageStyle:
-  background-attachment: fixed
 heroText: Cherry
-tagline: 一款基于Golang Actor Model的分布式游戏服务端框架。
+tagline: 一款基于Actor模型的分布式Go游戏服务端框架。
 actions:
   - text: 新手指南 💡
-    link: ./zh/demo/
+    link: ./guide/
     type: primary
 
-  - text: 文档
-    link: ./zh/guide/
+  - text: 示例
+    link: ./demo/
+    type: secondary
 
 highlights:
   - header: 特性
@@ -50,6 +49,11 @@ highlights:
         details: 像相册一样允许你浏览、缩放并分享你的页面图片
         link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
 
-copyright: false
-footer: Create by <a href="https://github.com/cherry-game" target="_blank">Cherry Game</a> | MIT Licensed, Copyright © 2022-2023 @phantacix
+      - title: 图片预览
+        icon: image
+        details: 像相册一样允许你浏览、缩放并分享你的页面图片
+        link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
+
+
+footer: MIT Licensed | Create by <a href="https://github.com/cherry-game" target="_blank">Cherry Game</a>
 ---

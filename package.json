@@ -1,6 +1,6 @@
 {
   "name": "cherry-game-docs",
-  "description": "Golang game server engine",
+  "description": "Golang Game Server Engine",
   "repository": {
     "type": "git",
     "url": "github.com/cherry-game/cherry"

@@ -54,5 +54,5 @@ highlights:
         link: https://theme-hope.vuejs.press/guide/feature/photo-swipe.html
 
 copyright: false
-footer: Create by <a href="https://github.com/cherry-game" target="_blank">Cherry Game</a> | MIT Licensed, Copyright © 2022-2023 @phantacix
+footer: MIT Licensed | Create by <a href="https://github.com/cherry-game" target="_blank">Cherry Game</a>
 ---

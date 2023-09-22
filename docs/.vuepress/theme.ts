@@ -7,18 +7,13 @@ const hostname =
 
 export default hopeTheme(
   {
-    hostname,
-
-    author: {
-      name: "phantacix",
-      url: "https://github.com/phantaicx",
-    },
-
+    darkmode:"toggle",
+    
     iconAssets: "fontawesome-with-brands",
 
     logo: "/logo.svg",
 
-    repo: "cherry-game/cherry",
+    repo: "cherry-game/cherry-docs",
 
     locales: {
       "/zh/": {
@@ -28,7 +23,7 @@ export default hopeTheme(
         // sidebar
         sidebar: zhSidebar,
 
-        footer: "默认页脚",
+        footer: "MIT Licensed | Create by <a href=\"https://github.com/cherry-game\" target=\"_blank\">Cherry Game</a>",
 
         displayFooter: true,
 
@@ -45,7 +40,7 @@ export default hopeTheme(
         // sidebar
         sidebar: enSidebar,
 
-        footer: "Default footer",
+        footer: "MIT Licensed | Create by <a href=\"https://github.com/cherry-game\" target=\"_blank\">Cherry Game</a>",
 
         displayFooter: true,
 
@@ -63,13 +58,6 @@ export default hopeTheme(
     },
 
     plugins: {
-      comment: {
-        provider: "Giscus",
-        repo: "vuepress-theme-hope/giscus-discussions",
-        repoId: "R_kgDOG_Pt2A",
-        category: "Announcements",
-        categoryId: "DIC_kwDOG_Pt2M4COD69",
-      },
 
       // All features are enabled for demo, only preserve features you need here
       mdEnhance: {
@@ -169,11 +157,6 @@ export default hopeTheme(
           ],
         },
       },
-
-      seo:
-        hostname === "https://theme-hope-docs-demo.vuejs.press"
-          ? {}
-          : { canonical: "https://theme-hope-docs-demo.vuejs.press" },
     },
   },
   { custom: true }

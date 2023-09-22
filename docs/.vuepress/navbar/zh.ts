@@ -7,23 +7,18 @@ export const zhNavbar = navbar([
     link: "/zh/",
   },
   {
-    text: "开始",
-    icon: "book",
-    link: "/zh/starts",
+    text: "新手指南",
+    icon: "lightbulb",
+    link: "/zh/guide",
   },
   {
-    text: "新手指南",
-    icon: "book",
-    link: "/zh/guides",
+    text: "示例",
+    icon: "laptop-code",
+    link: "/zh/demo",
   },
   {
     text: "组件",
     icon: "book",
-    link: "/zh/components",
-  },
-  {
-    text: "示例",
-    icon: "book",
-    link: "/zh/demos",
+    link: "/zh/component",
   },
 ]);
