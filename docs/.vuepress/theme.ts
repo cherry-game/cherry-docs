@@ -2,9 +2,6 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
-const hostname =
-  process.env["HOSTNAME"] || "https://theme-hope-docs-demo.vuejs.press";
-
 export default hopeTheme(
   {
     darkmode:"toggle",
@@ -13,7 +10,9 @@ export default hopeTheme(
 
     logo: "/logo.svg",
 
-    repo: "cherry-game/cherry-docs",
+    docsRepo : "cherry-game/cherry-docs",
+    docsDir :"/docs",
+    docsBranch :"master",
 
     locales: {
       "/zh/": {
@@ -50,15 +49,7 @@ export default hopeTheme(
       },
     },
 
-    encrypt: {
-      config: {
-        "/demo/encrypt.html": ["1234"],
-        "/zh/demo/encrypt.html": ["1234"],
-      },
-    },
-
     plugins: {
-
       // All features are enabled for demo, only preserve features you need here
       mdEnhance: {
         align: true,

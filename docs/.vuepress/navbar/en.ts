@@ -13,7 +13,7 @@ export const enNavbar = navbar([
   },
   {
     text: "Demo",
-    icon: "book",
+    icon: "laptop-code",
     link: "/en/demo",
   },
   {

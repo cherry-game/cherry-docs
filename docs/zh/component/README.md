@@ -1,17 +1,14 @@
 ---
 title: 组件
-index: false
-icon: laptop-code
-category:
-  - 使用指南
+
 ---
 
-## 目录
+## 组件列表
 
-- [Markdown 展示](markdown.md)
+- [data-config](data-config)
 
-- [页面展示](page.md)
+- [cron](cron)
 
-- [禁用展示](disable.md)
+- [gorm](gorm)
 
-- [加密展示](encrypt.md)
+- [etcd](etcd)

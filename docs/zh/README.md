@@ -2,11 +2,11 @@
 home: true
 icon: home
 title: 首页
-heroImage: /logo.svg
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+heroImage: ./logo.svg
+bgImage: ./assets/bg/6-light.svg
+bgImageDark: ./assets/bg/6-dark.svg
 heroText: Cherry
-tagline: 一款基于Actor模型的分布式Go游戏服务端框架。
+tagline: 一款基于Actor模型的Go分布式游戏服务端框架。
 actions:
   - text: 新手指南 💡
     link: ./guide/
@@ -19,41 +19,39 @@ actions:
 highlights:
   - header: 特性
     features:
-      - title: 浏览量与评论
-        icon: comment-dots
-        details: 配合 Waline 来开启阅读量统计与评论支持
-        link: https://theme-hope.vuejs.press/zh/guide/feature/comment.html
+      - title: 组件管理
+        icon: box-archive
+        details: 基于组件的方式进行功能组合，统一管理所有组件的生命周期。可自定义组件，方便灵活扩展。支持集群模式和单机模式。
+        link: ./zh/guide/discovery
 
-      - title: 文章信息
-        icon: circle-info
-        details: 为你的文章添加作者、写作日期、预计阅读时间、字数统计等信息
-        link: https://theme-hope.vuejs.press/zh/guide/feature/page-info.html
+      - title: 通信&集群
+        icon: sitemap
+        details: 内部进程基于NATS通信。轻松构建高性能、分布式且可扩展的游戏服务。框架自带多种方式的发现服务。
+        link: ./zh/guide/nats
 
-      - title: 文章加密
-        icon: lock
-        details: 你可以为你的特定页面或特定目录进行加密，以便陌生人不能随意访问它们
-        link: https://theme-hope.vuejs.press/zh/guide/feature/encrypt.html
+      - title: Actor模型
+        icon: route
+        details: 依托Goroutine优势，轻松创建成千上万个Actor模型。方便玩家与玩家，模块与模块之间通信。
+        link: ./zh/guide/actor-model
 
-      - title: 搜索支持
-        icon: search
-        details: 支持 docsearch 和基于客户端的搜索
-        link: https://theme-hope.vuejs.press/zh/guide/feature/search.html
+      - title: 网络数据包
+        icon: grip
+        details: 默认集成pomelo数据包格式，也可以按需自定义个性的数据包格式。
+        link: ./zh/guide/net-packet
 
-      - title: 代码复制
+      - title: 连接器
         icon: copy
-        details: 一键复制代码块中的代码
-        link: https://theme-hope.vuejs.press/zh/guide/feature/copy-code.html
+        details: 组件化方式构建网络连接器，框架自带Tcp、WebSocket、Http Server。
+        link: ./zh/guide/connector
 
-      - title: 图片预览
-        icon: image
-        details: 像相册一样允许你浏览、缩放并分享你的页面图片
-        link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
+      - title: Profile配置
+        icon: code
+        details: 可根据多个开发、运行环境进行参数配置，配置文件支持多文件拆分、组合。
+        link: ./zh/guide/profile
 
-      - title: 图片预览
-        icon: image
-        details: 像相册一样允许你浏览、缩放并分享你的页面图片
-        link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
-
-
+      - title: 自定义组件
+        icon: puzzle-piece
+        details: 框架自带cron、data-config、etcd、gin、gorm等组件。也可根据需求自定义组件。
+        link: ./zh/component
 footer: MIT Licensed | Create by <a href="https://github.com/cherry-game" target="_blank">Cherry Game</a>
 ---

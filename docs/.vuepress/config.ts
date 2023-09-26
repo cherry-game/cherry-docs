@@ -5,6 +5,7 @@ export default defineUserConfig({
   base : "/",
   dest: "./dist",
   lang: "zh-CN",
+
   locales: {
     "/zh/": {
       lang: "zh-CN",

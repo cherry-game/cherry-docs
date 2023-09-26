@@ -17,8 +17,13 @@ export const zhNavbar = navbar([
     link: "/zh/demo",
   },
   {
-    text: "组件",
+    text: "核心功能",
     icon: "book",
+    link: "/zh/core",
+  },
+  {
+    text: "组件",
+    icon: "puzzle-piece",
     link: "/zh/component",
   },
 ]);

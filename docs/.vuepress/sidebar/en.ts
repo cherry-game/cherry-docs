@@ -11,7 +11,7 @@ export const enSidebar = sidebar({
     },
     {
       text: "Demo",
-      icon: "book",
+      icon: "laptop-code",
       prefix: "demo/",
       link: "demo/",
       children: "structure",
