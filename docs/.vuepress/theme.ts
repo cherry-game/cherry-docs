@@ -6,7 +6,12 @@ export default hopeTheme(
   {
     darkmode:"toggle",
     
-    iconAssets: "fontawesome-with-brands",
+    //iconAssets: "fontawesome-with-brands",
+    iconAssets: [
+      "/assets/fontawesome-free-6.4.2/js/brands.js",
+      "/assets/fontawesome-free-6.4.2/js/solid.js",
+      "/assets/fontawesome-free-6.4.2/js/fontawesome.js",
+    ],
 
     logo: "/logo.svg",
 

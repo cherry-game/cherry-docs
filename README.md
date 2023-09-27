@@ -9,4 +9,7 @@
 ## Misc
 [vuejs.press](https://vuejs.press)
 [theme-hope](https://theme-hope.vuejs.press)
+[fontawesome](https://fontawesome.com/search)
 [Fork on StackBlitz ⚡️](https://stackblitz.com/fork/vuepress-theme-hope)
+
+

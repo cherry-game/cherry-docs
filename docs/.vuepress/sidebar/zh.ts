@@ -4,7 +4,7 @@ export const zhSidebar = sidebar({
   "/zh/": [
     {
       text: "新手指南",
-      icon: "lightbulb",
+      icon: "fa-solid fa-lightbulb",
       prefix: "guide/",
       link: "guide/",
       children: [
@@ -16,7 +16,7 @@ export const zhSidebar = sidebar({
     },
     {
       text: "示例",
-      icon: "laptop-code",
+      icon: "fa-solid fa-laptop-code",
       prefix: "demo/",
       link: "demo/",
       children: [
@@ -26,17 +26,21 @@ export const zhSidebar = sidebar({
     },
     {
       text: "核心功能",
-      icon: "book",
+      icon: "fa-solid fa-book",
       prefix: "core/",
       link: "core/",
       children: [
-        "1.md",
-        "2.md",
+        "component.md",
+        "cluster.md",
+        "actor-model.md",
+        "connector.md",
+        "net-packet.md",
+        "profile.md",
       ],
     },
     {
       text: "组件",
-      icon: "puzzle-piece",
+      icon: "fa-solid fa-puzzle-piece",
       prefix: "component/",
       link: "component/",
       children: [
