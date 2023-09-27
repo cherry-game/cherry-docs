@@ -5,6 +5,7 @@ export default defineUserConfig({
   base : "/",
   dest: "./dist",
   lang: "zh-CN",
+  title : "Cherry Game",
 
   locales: {
     "/zh/": {
