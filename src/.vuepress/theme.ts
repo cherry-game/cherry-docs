@@ -15,9 +15,19 @@ export default hopeTheme(
 
     logo: "/logo.svg",
 
+    repo : "cherry-game/cherry",
     docsRepo : "cherry-game/cherry-docs",
     docsDir :"/docs",
     docsBranch :"master",
+
+    pageInfo: false,
+    contributors : false,
+    lastUpdated: false,
+    backToTop : true,
+    headerDepth: 0,
+    toc: false,
+    editLink : false,
+    breadcrumb : true,
 
     locales: {
       "/zh/": {
@@ -72,25 +82,7 @@ export default hopeTheme(
         katex: true,
         mark: true,
         mermaid: true,
-        playground: {
-          presets: ["ts", "vue"],
-        },
-        presentation: {
-          plugins: ["highlight", "math", "search", "notes", "zoom"],
-        },
-        stylize: [
-          {
-            matcher: "Recommended",
-            replacer: ({ tag }) => {
-              if (tag === "em")
-                return {
-                  tag: "Badge",
-                  attrs: { type: "tip" },
-                  content: "Recommended",
-                };
-            },
-          },
-        ],
+
         sub: true,
         sup: true,
         tabs: true,
