@@ -10,12 +10,12 @@ bgImageStyle:
 heroText: Cherry Game
 tagline: Actor model game server framework based on golang.
 actions:
-  - text: 怎么使用 💡
-    link: ./zh/demo/
+  - text: Guide 💡
+    link: ./en/guide/
     type: primary
 
-  - text: 文档
-    link: ./zh/guide/
+  - text: Demo
+    link: ./em/demo/
 
 highlights:
 

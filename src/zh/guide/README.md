@@ -4,5 +4,5 @@ icon: lightbulb
 ---
 
 ## 介绍
-Cheryy是一款....
+Cherry是一款....
 
