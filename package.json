@@ -9,9 +9,10 @@
   "private": true,
   "packageManager": "pnpm@8.3.1",
   "scripts": {
-    "dev": "pnpm run docs:dev",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "pnpm run docs:src",
+    "src:dev": "vuepress dev src",
+    "src:dev:clean" : "vuepress dev src --clean-cache",
+    "src:build": "vuepress build src"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.66",
