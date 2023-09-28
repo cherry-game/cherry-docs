@@ -1,6 +1,6 @@
 ---
 title: 核心功能
-index: false
+icon: fa-solid fa-book
 ---
 
 ## 核心功能1
