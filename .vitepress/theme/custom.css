@@ -1,0 +1,10 @@
+:root {
+	--vp-nav-logo-height: 40px;
+    --vp-c-indigo-1: #E54728;
+    --vp-c-indigo-2: #E54728;
+    --vp-c-indigo-3: #E54728;
+}
+
+.title{
+	font-size:var(--vp-nav-logo-height);
+}
