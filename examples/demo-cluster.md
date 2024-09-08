@@ -1,6 +1,6 @@
 # 多节点集群
 
-> examples示例已从cherry库迁出，新仓库地址: https://github.com/cherry-game/examples
+> **examples示例已从cherry库迁出，新仓库地址: https://github.com/cherry-game/examples**
 
 ## 须知
 

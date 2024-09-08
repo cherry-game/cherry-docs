@@ -3,7 +3,7 @@
 - 使用cherry引擎构建一个简单的多人聊天室程序
 - 本示例为h5客户端，使用`pomelo-ws-client`做为客户端sdk，连接类型为`websocket`，序列化类型为`json`
 
-> examples示例已从cherry库迁出，新仓库地址: https://github.com/cherry-game/examples
+> **examples示例已从cherry库迁出，新仓库地址: https://github.com/cherry-game/examples**
 
 ## 要求
 
