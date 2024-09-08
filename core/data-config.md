@@ -12,7 +12,7 @@
 ## Install
 
 ### Prerequisites
-- GO >= 1.17
+- GO >= 1.18
 
 ### Using go get
 ```
